@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Mouse Event - Double Click Method</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<style>
+.box{
+    width: 100%;
+    height: 100px;
+    background: #2f4beb;
+    margin-top: 20px;
+    border-style: solid;
+    border-color:rgb(184, 8, 238);
+
+}
+</style>
+
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $(".box").animate({
+        height: 'toggle'
+                    
+        });
+      
+        });
+    });
+
+
+</script>
+
+</head>
+
+<body>
+  <button type="button">Animate</button>
+  <div class="box"></div>
+</body>
+
+</html>
