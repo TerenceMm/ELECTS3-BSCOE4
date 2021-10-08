@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Module 03 - MP02</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<style>
+    img {
+        position: absolute;
+    }
+
+    </style>
+
+<script>
+$(document).ready(function(){
+    $("button").Click(function(){
+        $("img").animate({
+            left: 300
+        });
+
+    });
+});
+
+</script>
+</head>
+
+<body>
+    <button type="button"> Animate</button>
+    <p>
+       <img src="arrow.png"  alt="arrow">
+    </p>
+</body>
+
+</html>
